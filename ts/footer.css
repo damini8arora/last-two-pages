@@ -1,0 +1,148 @@
+.container1 {
+    width: 1401px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45px auto;
+
+    align-items: start;
+    gap: 10px;
+    position: relative;
+    border-bottom:solid #272727 0.5px;
+}
+
+.logo {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: 15px;
+    grid-column: 1 / 2;
+}
+
+.logo-images {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-images img {
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.services {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    width: 280px;
+    padding-left: 198px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.amaze-system {
+    /* grid-column: 2 / 3; */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 29px;
+}
+
+.description-contact {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    font-family: Oxygen;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17.68px;
+    text-align: left;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.list {
+    grid-column: 3 / 4;
+    list-style-type: none;
+    padding-left: 198px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.contact-line {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contact-line img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact-linex,
+.contact-liney {
+    padding-left: 30px;
+    font-family: Oxygen;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15.15px;
+    text-align: left;
+}
+
+.contact-line span {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+
+}
+
+.last {
+    
+    grid-column: 2 / 3;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: center;
+}
